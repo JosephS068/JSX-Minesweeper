@@ -1,0 +1,35 @@
+body {
+    background: rgb(15,0,36);
+    background: linear-gradient(90deg, rgba(15,0,36,1) 0%, rgba(26,82,173,0.861782212885154) 35%, rgba(19,0,255,1) 100%);
+}
+
+#Horizontal-Center {
+    display: flex;
+    justify-content: center;
+}
+
+#Verticle-Center {
+    display: flex;
+    flex-direction: column;
+}
+
+#Buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 10px;
+}
+
+#mineCounter {
+    font-family: "Megrim", Times, serif;
+    font-size: 72px;
+}
+
+#glCanvas {
+    /* border around the game board */   
+    border-radius: 1px;
+    border-style: solid;
+}
+
